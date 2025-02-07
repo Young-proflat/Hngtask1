@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 import requests
 
 #Initializing the flask app
-app = flask(__name__)
+app = Flask(__name__)
 
 NUMBERS_API_URL = "http://numbersapi.com/{}/math"
 
