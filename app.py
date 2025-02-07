@@ -36,7 +36,7 @@ def get_fun_fact(number):
     except requests.RequestException:
         return "No fact available"
 
-@app.route("api/classify-number", methods =["GET"])
+@app.route("/api/classify-number", methods =["GET"])
 def classify_number():
     number_param = request.args.get("number")
 
