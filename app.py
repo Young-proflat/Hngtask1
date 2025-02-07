@@ -1,10 +1,9 @@
 # importing a libraries
 from flask import Flask, request, jsonify
-from flask-cors import CORS
+import requests
 
 #Initializing the flask app
 app = flask(__name__)
-CORS(app)
 
 NUMBERS_API_URL = "http://numbersapi.com/{}/math"
 
