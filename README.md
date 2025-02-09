@@ -4,10 +4,10 @@ Number Properties API
 
 This API provides interesting mathematical properties and a fun fact about a given number.
 
-Endpoint
+# Endpoint
 GET /api/classify-number?number=<number>
 
-Request
+# Request
 GET /api/classify-number?number=371
 
 Example Response (200 OK)
